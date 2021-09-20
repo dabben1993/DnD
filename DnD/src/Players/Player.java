@@ -1,5 +1,8 @@
 package Players;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Player {
 
 
@@ -11,6 +14,8 @@ public class Player {
     public Traits traits;
     public Spells spells;
     public Inventory inventory;
+
+
 
     public Player(BasicInfo basicInfo, Attributes attributes, Modifiers modifiers, SavingThrows savingThrows,
                   Skills skills, Traits traits, Spells spells, Inventory inventory) {

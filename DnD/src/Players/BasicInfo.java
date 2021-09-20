@@ -1,5 +1,7 @@
 package Players;
 
+import java.util.Scanner;
+
 public class BasicInfo {
     //basic info
     public String nameOfChar;
@@ -13,6 +15,7 @@ public class BasicInfo {
     public int lvl;
     public int hp;
     public int armorClass;
+    public int noOfAdventures;
 
 
     public BasicInfo(String nameOfChar, String nameOfPlayer, String claSS, String race, String background,
@@ -30,6 +33,8 @@ public class BasicInfo {
         this.armorClass = armorClass;
 
     }
+
+
     public String getNameOfChar() {return nameOfChar;}
     public void setNameOfChar(String nameOfChar) {this.nameOfChar = nameOfChar;}
     public String getNameOfPlayer() {return nameOfPlayer;}
@@ -51,7 +56,10 @@ public class BasicInfo {
     public int getArmorClass() {return armorClass;}
     public void setArmorClass(int armorClass) {this.armorClass = armorClass;}
     public String getLanguages() {return languages;}
-    public void setLanguages(String languages) {this.languages = languages;
-    }
+    public void setLanguages(String languages) {this.languages = languages;}
+    public int getNoOfAdventures(){return noOfAdventures;}
+    public void setNoOfAdventures(int noOfAdventures){this.noOfAdventures = noOfAdventures;}
+
+
 }
 
